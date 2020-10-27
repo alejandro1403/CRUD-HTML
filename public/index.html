@@ -30,10 +30,53 @@
       <fieldset>
         <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
       </fieldset>
+      
+    </form>
+  </div>
+  
+  <div class="container">
+    <form id="eliminar" action="" method="delete">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Borrar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Delete</button>
+      </fieldset>
 
     </form>
   </div>
 
+  <div class="container">
+    <form id="actualizar" action="" method="delete">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Actualizar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Actualizar</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="get" action="" method="delete">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Consultar Pacientes</h4>
+      <fieldset>
+        <button name="submit" onClick="parent.open('http://localhost:3000/basedatos/consultatotalpacientes')" type="submit" id="contact-submit" data-submit="...Sending">Consultar</button>
+      </fieldset>
+    </form>
+  </div>
 
   <script src="app.js"></script>
 </body>

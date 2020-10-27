@@ -142,3 +142,267 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+#eliminar input[type='text'],
+#eliminar input[type='email'],
+#eliminar input[type='tel'],
+#eliminar input[type='url'],
+#eliminar textarea,
+#eliminar button[type='submit'] {
+  font: 400 12px/16px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+#eliminar {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#eliminar h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#eliminar h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#eliminar input[type='text'],
+#eliminar input[type='email'],
+#eliminar input[type='tel'],
+#eliminar input[type='url'],
+#eliminar textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#eliminar input[type='text']:hover,
+#eliminar input[type='email']:hover,
+#eliminar input[type='tel']:hover,
+#eliminar input[type='url']:hover,
+#eliminar textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#eliminar textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#eliminar button[type='submit'] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#eliminar button[type='submit']:hover {
+  background: #43a047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#eliminar button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#eliminar input:focus,
+#eliminar textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+#actualizar input[type='text'],
+#actualizar input[type='email'],
+#actualizar input[type='tel'],
+#actualizar input[type='url'],
+#actualizar textarea,
+#actualizar button[type='submit'] {
+  font: 400 12px/16px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+#actualizar {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#actualizar h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#actualizar h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#actualizar input[type='text'],
+#actualizar input[type='email'],
+#actualizar input[type='tel'],
+#actualizar input[type='url'],
+#actualizar textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#actualizar input[type='text']:hover,
+#actualizar input[type='email']:hover,
+#actualizar input[type='tel']:hover,
+#actualizar input[type='url']:hover,
+#actualizar textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#actualizar textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#actualizar button[type='submit'] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#actualizar button[type='submit']:hover {
+  background: #43a047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#actualizar button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#actualizar input:focus,
+#actualizar textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+
+//////////////////////////
+#get input[type='text'],
+#get input[type='email'],
+#get input[type='tel'],
+#get input[type='url'],
+#get textarea,
+#get button[type='submit'] {
+  font: 400 12px/16px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+#get {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#get h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#get h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#get input[type='text'],
+#get input[type='email'],
+#get input[type='tel'],
+#get input[type='url'],
+#get textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#get input[type='text']:hover,
+#get input[type='email']:hover,
+#get input[type='tel']:hover,
+#get input[type='url']:hover,
+#get textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#get textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#get button[type='submit'] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#get button[type='submit']:hover {
+  background: #43a047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#get button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#get input:focus,
+#get textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
